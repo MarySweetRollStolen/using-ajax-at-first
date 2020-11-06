@@ -1,0 +1,166 @@
+
+
+.cat_font{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 22px;
+}
+
+.cat_block1{
+    background-color: #ffaec8;
+    border: 7px solid black;
+}
+
+.cat_block{
+    background-color: #f285c2;
+    border: 5px solid black;
+}
+
+header{
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    position: fixed;
+    top: 5%;
+    left: 25%;
+    padding: 3px;
+}
+
+.menu{
+   position: fixed;
+   top: 130px;
+   left: 43%;
+   padding: 0px;
+   z-index: 1;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f285c2;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 5px solid black;
+  min-width: 90px;
+
+
+  z-index: 3;
+}
+
+
+.dropdown-content p {
+    font-size: 25px;
+    color: black;
+    padding: 0px;
+    cursor: pointer;
+    padding left: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin: 0px;
+    display: block;
+    text-decoration: none;
+
+
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown:hover .dropbtn {background-color: #ffaec8;} 
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content p:hover {background-color: #ffaec8;}
+
+
+
+
+
+
+.questionnaire1{
+    position: fixed;
+    top: 190px;
+    left: 33%;
+    width: 30%;
+}
+
+.questionnaire{
+    margin: 15px;
+    padding-left: 50px;
+
+}
+
+#cats{
+ font-weight: bold;
+}
+
+.properties_cat{
+
+}
+
+
+footer{
+  font-family: 'Righteous', cursive;
+  font-size: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: fixed;
+  top: 90%;
+  left: 44%;
+}
+
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.cat_back{
+
+  background-image: url(../img/cat.jpg);
+  height: 100%;
+  padding: 0;
+  margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+
+@media (max-width: 800px){
+
+    header{
+        font-family: 'Righteous', cursive;
+        font-size: 45px;
+        top: 5%;
+        left: 2%;
+    }
+
+    footer{
+        left: 40%;
+    }
+
+    .menu{
+        left: 40%;
+    }
+
+    .questionnaire1{
+        left: 20%;
+
+    }
+
+
+
+
+}
+
+
+
+
+
